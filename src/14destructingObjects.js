@@ -21,7 +21,7 @@ let user = {
     }
 };
 
-let = { login, age, card, social: { facebook, twitter }, card: { no, lastUsed } } = user;
+let { login, age, card, social: { facebook, twitter }, card: { no, lastUsed } } = user;
 console.log(login, age, facebook, twitter, no, lastUsed);
 
 
